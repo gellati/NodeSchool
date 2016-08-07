@@ -1,0 +1,2 @@
+var variables = 123456789
+console.log(variables)
