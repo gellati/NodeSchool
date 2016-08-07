@@ -1,0 +1,10 @@
+
+$baseFontSize: 24px;
+$i: 1;
+
+@while $i < 7{
+    h#{$i}{
+	font-size: $baseFontSize - 3px * $i;
+	$i: $i + 1;
+    }
+}

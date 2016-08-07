@@ -1,0 +1,13 @@
+
+@mixin border-width($thickness){
+    border-width: $thickness;
+//    -webkit-border-width: $thickness;
+//    -moz-border-width: $thickness;
+//    -ms-border-width: $thickness;
+
+}
+
+
+img{
+    @include border-width(10px);
+}

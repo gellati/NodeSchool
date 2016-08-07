@@ -1,0 +1,8 @@
+
+$baseFontSize: 24px;
+
+@for $i from 1 through 6{
+    h#{$i}{
+	font-size: $baseFontSize - 3px * $i;
+    }
+}

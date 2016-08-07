@@ -1,0 +1,18 @@
+@mixin solidBorder{
+    img{
+	@include border-width(10px);
+	@content;
+    }
+}
+
+@mixin border-width($thickness){
+    border-width: $thickness;
+}
+
+@include solidBorder{
+    border-style: solid;
+}
+
+//img{
+//    @include border-width(10px);
+//}
