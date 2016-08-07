@@ -1,0 +1,9 @@
+FilterableProductTable          
+|
+|---SearchBar
+|
+|---ProductTable
+      |
+      |---ProductCategoryRow
+      |
+      |---ProductRow
