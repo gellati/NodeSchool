@@ -1,0 +1,5 @@
+var fs = require('fs')
+
+var file = "file3"
+
+fs.readFileSync("file")

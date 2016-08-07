@@ -1,0 +1,10 @@
+
+console.log(process.argv)
+
+var a = process.argv
+
+int i
+
+for(i = 0; i < a.length; i++){
+    console.log(a[i])
+}
