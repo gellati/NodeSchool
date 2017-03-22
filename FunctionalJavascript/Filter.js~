@@ -1,0 +1,6 @@
+
+function getShortMessages(messages){
+    return messages.filter(function(mes){return mes.length > 50;});
+}
+
+module.exports = getShortMessages

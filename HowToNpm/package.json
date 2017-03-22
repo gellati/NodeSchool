@@ -1,0 +1,20 @@
+{
+  "name": "@omar/howtonpm",
+  "version": "1.1.1",
+  "description": "doing the npm workshop",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repositories": {
+    "url": "http://www.example.com"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "open",
+    "source"
+  ],
+  "author": "omar",
+  "license": "ISC"
+}

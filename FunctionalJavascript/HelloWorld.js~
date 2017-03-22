@@ -1,0 +1,7 @@
+//var input = proc.arvg[2]
+
+function upperCaser(string){
+    return string.upperCase();
+}
+
+module.exports = upperCaser;

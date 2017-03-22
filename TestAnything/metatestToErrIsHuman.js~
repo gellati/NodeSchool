@@ -1,0 +1,8 @@
+module.exports = function(food){
+    if(food === 'chocolate'){
+	return new Error();
+    }
+    else{
+	return 'yum';
+    }	
+}

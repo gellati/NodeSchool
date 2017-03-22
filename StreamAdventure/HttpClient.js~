@@ -1,0 +1,8 @@
+var http = require('http')
+var request = require('request')
+
+var url = 'http://localhost'
+var port = '8099'
+var input = process.argv[2]
+
+request.post(url + ':' + port).pipe(input);

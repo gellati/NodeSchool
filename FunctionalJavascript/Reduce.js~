@@ -1,0 +1,7 @@
+
+function countWords(inputWords){
+    return inputWords.reduce(function(previousWord, currentWord, currentIndex, inputWords));
+
+}
+
+module.exports = countWords

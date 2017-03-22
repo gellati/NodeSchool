@@ -8,7 +8,6 @@ var server = net.createServer(function(socket){
     dateString += "\n"    
     socket.write(dateString)
     socket.end()
-
 })
 
 server.listen(port)
@@ -22,7 +21,8 @@ function formatDateToString(date){
     // 1970, 1971, ... 2015, 2016, ...
     var yyyy = date.getFullYear();
 
-    var hh = ((date.getHours() < 13 ? 0 : 12) + date.getHours()).toString();
+    //    var hh = ((date.getHours() < 13 ? 0 : 12) + date.getHours()).toString();
+    var hh  = date.getHours().toString();
 
     var mm= (date.getMinutes() < 10 ? '0' : '') + date.getMinutes();
     

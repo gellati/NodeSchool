@@ -1,0 +1,2 @@
+var mod = require(process.argv[2])
+
