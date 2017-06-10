@@ -8,12 +8,17 @@ var tr = trumpet();
 
 //fs.createReadStream(input).pipe(tr);
 
+process.stdin.pipe(tr).pipe(process.stdout);
+
 var stream = tr.selectAll('.loud', function(element){
-    return element.toString().toUpperCase();
+    var elementStream = element.createStream();
+    elementStream.on('data', function(buffer){
+	elementStream.end(buffer.toString().toUpperCase());
+    });
 });
 
 
-process.stdin.pipe(stream).pipe(process.stdout);
+
 
 /*
 https://github.com/nodeschool/discussions/issues/346

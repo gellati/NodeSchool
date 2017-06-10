@@ -1,2 +1,1 @@
-console.log("beep boop");
-
+console.log("beep boop"); // print out the string
